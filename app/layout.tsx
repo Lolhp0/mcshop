@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"], variable: "--nunito" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" style={{scrollBehavior: "smooth"}}>
+      <body className={nunito.variable}>
+        <div className="bg-zinc-950">
+          <div className="m-auto min-h-screen text-white font-nunito">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
