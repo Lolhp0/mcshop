@@ -11,7 +11,7 @@ const Shop = () => {
   return (
     <div className="w-full h-fit" id="shop">
       <div className="w-full h-fit flex flex-wrap gap-4 p-4">
-        {hagopH.shop.map((v, i) => (
+        {hagopH.shop.map((v: any, i: any) => (
           <ProductCard
             item_name={v.item_name}
             item_description={v.item_description}

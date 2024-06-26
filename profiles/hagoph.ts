@@ -1,7 +1,7 @@
 import { User } from "@/types";
 
 
-export const hagopH: User = {
+export const hagopH: any = {
     profile: {
         name: "LolHP",
         avatar: "",
@@ -16,6 +16,17 @@ export const hagopH: User = {
             item_quantity: 1,
             item_information: {
                 item_enchants: ["Fortune 3", "Unbreaking 3"],
+                item_used: false
+            },
+        },
+        {
+            item_name: "Coal",
+            item_description: "Selling 2 Stacks of coal",
+            item_type: "coal",
+            item_price: 32,
+            item_quantity: 128,
+            item_information: {
+                item_enchants: [],
                 item_used: false
             },
         },
