@@ -1,4 +1,7 @@
-export const hagopH = {
+import { User } from "@/types";
+
+
+export const hagopH: User = {
     profile: {
         name: "LolHP",
         avatar: "",

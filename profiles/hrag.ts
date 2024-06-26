@@ -1,4 +1,6 @@
-export const hragY = {
+import { User } from "@/types";
+
+export const hragY: User = {
     profile: {
         name: "HragY",
         avatar: "",
@@ -6,15 +8,7 @@ export const hragY = {
     },
     shop: [
         {
-            item_name: "",
-            item_description: "",
-            item_type: "",
-            item_price: "",
-            item_quantity: 0,
-            item_information: {
-                item_enchants: [],
-                item_used: false
-            },
+
         },
     ],
 }
