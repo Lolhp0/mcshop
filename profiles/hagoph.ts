@@ -30,5 +30,16 @@ export const hagopH: any = {
                 item_used: false
             },
         },
+        {
+            item_name: "Shulker Boxes",
+            item_description: "Selling 4 Shulker Boxes",
+            item_type: "shulker-box",
+            item_price: 90,
+            item_quantity: 4,
+            item_information: {
+                item_enchants: [],
+                item_used: false
+            },
+        },
     ],
 }
