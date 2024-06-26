@@ -1,14 +1,14 @@
-import { User } from "@/types";
+// import { User } from "@/types";
 
-export const hagopM: User = {
-    profile: {
-        name: "SevGabig2",
-        avatar: "",
-        banner: "",
-    },
-    shop: [
-        {
+// export const hagopM: User = {
+//     profile: {
+//         name: "SevGabig2",
+//         avatar: "",
+//         banner: "",
+//     },
+//     shop: [
+//         {
  
-        },
-    ],
-}
+//         },
+//     ],
+// }

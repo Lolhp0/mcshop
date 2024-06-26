@@ -1,7 +1,7 @@
 import { useSkin } from "@/hooks/useSkin";
 import { hagopH } from "@/profiles/hagoph";
-import { hagopM } from "@/profiles/hagopm";
-import { hragY } from "@/profiles/hrag";
+// import { hagopM } from "@/profiles/hagopm";
+// import { hragY } from "@/profiles/hrag";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -23,7 +23,7 @@ const Shop = () => {
             item_price={v.item_price}
           />
         ))}
-        {hagopM.shop.map((v, i) => (
+        {/* {hagopM.shop.map((v, i) => (
           <ProductCard
             item_name={v.item_name}
             item_description={v.item_description}
@@ -34,8 +34,8 @@ const Shop = () => {
             seller={hagopM.profile.name}
             item_price={v.item_price}
           />
-        ))}
-        {hragY.shop.map((v, i) => (
+        ))} */}
+        {/* {hragY.shop.map((v, i) => (
           <ProductCard
             item_name={v.item_name}
             item_description={v.item_description}
@@ -46,7 +46,7 @@ const Shop = () => {
             seller={hragY.profile.name}
             item_price={v.item_price}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   );
